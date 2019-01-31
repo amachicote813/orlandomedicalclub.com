@@ -1,0 +1,290 @@
+/*~~~~~~~~~~~~~~~~ original doc ~~~~~~~~~~~~~~~~ */
+
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+/*~~~~~~~~~~~~~~~~ my css ~~~~~~~~~~~~~~~~ */
+
+/*~~~~~~~~~~~~~~~~ nav ~~~~~~~~~~~~~~~~ */
+
+.navi {
+color: white;
+ }
+
+ .lastnav {
+  margin-right: 10%;
+ }
+
+  .logo {
+    width: 200px;
+    height: 150px;
+
+  }
+
+  .active {
+    background-color: rgba(255,255,255, 0.2);
+
+  }
+ 
+ /*~~~~~~~~~~~~~~~~ buttons ~~~~~~~~~~~~~~~~ */
+
+.btn {
+  background-color: rgba(255,255,255, 0.2);
+  border-radius: 0px;
+}
+
+.btn-large {
+    background-color: rgba(255,255,255, 0.2);
+  border-radius: 0px;
+
+}
+
+.btn-large:hover {
+
+   background-color: #aa00ff;
+}
+
+#topButton:hover {
+
+   background-color: #aa00ff;
+
+}
+
+#topButton{
+box-shadow: none;
+}
+
+#bodyButton {
+  background-color: rgb(143, 79, 232);
+
+}
+
+#bodyButton:hover {
+    background-color: rgba(143, 79, 232, .8);
+
+
+}
+ /*~~~~~~~~~~~~~~~~ top heading ~~~~~~~~~~~~~~~~ */
+
+ #heroText {
+  font-family: "Open Sans", "helvetica";
+ }
+
+ @media only screen and (max-width : 600px) {
+  #heroText {
+    font-size: 2em;
+  }
+
+  #heroSub {
+    font-size: 1.5em;
+  }
+}
+
+
+  /*~~~~~~~~~~~~~~~~ logo ~~~~~~~~~~~~~~~~ */
+
+
+
+  @media only screen and (max-width : 5000px)
+  and (min-width : 2025px)  {
+     #logo {
+
+     height: 275%;
+    z-index: 2;
+  }
+
+}
+
+ @media only screen and (max-width : 2000px)
+  and (min-width : 1025px)  {
+     #logo {
+
+     height: 200%;
+    z-index: 2;
+  }
+
+}
+
+
+  @media only screen and (max-width : 1102px)
+  and (min-width : 770px) {
+     #logo {
+     height: 175%;
+    z-index: 2;
+  }
+
+}
+
+  @media only screen and (max-width : 769px) {
+     #logo {
+
+     height: 200%;
+    margin-left: 32%;
+    z-index: 2;
+  }
+
+}
+
+  @media only screen and (max-width : 426px)
+  and (min-width: 376px) {
+     #logo {
+
+     height: 200%;
+    margin-left: 19%;
+    z-index: 2;
+  }
+
+}
+
+ @media only screen and (max-width : 376px)
+ and (min-width: 321px) {
+     #logo {
+
+     height: 200%;
+    margin-left: 16%;
+    z-index: 2;
+  }
+
+}
+
+ @media only screen and (max-width : 320px) {
+     #logo {
+
+     height: 200%;
+    margin-left: 9%;
+    z-index: 2;
+  }
+
+}
+
+  /*~~~~~~~~~~~~~~~~ body ~~~~~~~~~~~~~~~~ */
+
+  .fontText1 {
+
+      font-family: "Open Sans", "helvetica";
+
+  }
+
+#newsButton:hover {
+  background-color: rgb(143, 79, 232);
+  color:white;
+}
+
+#newsButton {
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+#factsButton {
+  background-color: rgba(76,175,80, .8);
+  color: white;
+}
+#factsButton2 {
+  background-color: rgba(76,175,80, .8);
+  color: white;
+}
+
+#factsButton:hover {
+    color: #4CAF50;
+  background-color: rgba(255, 255, 255, .8);
+
+}
+
+#factsButton2:hover {
+    color: #4CAF50;
+  background-color: rgba(255, 255, 255, .8);
+
+}
+
+    /*~~~~~~~~~~~~~~~~ footer ~~~~~~~~~~~~~~~~ */
+
+footer.page-footer {
+  background-color: rgb(143, 79, 232);
+}
+
+.footHover:hover {
+  background-color: rgba(0, 0, 0, .2);
+}
+
+
+ /*~~~~~~~~~~~~~~~~ stuff ~~~~~~~~~~~~~~~~ */
+
+
+.purpBG {
+
+ background-color: rgb(143, 79, 232);
+
+}
+
+
+.purp {
+
+ color: rgb(143, 79, 232);
+
+}
+
+.purpFont {
+
+ color: rgb(143, 79, 232);
+
+}
+
+.whiteFont {
+  color: white;
+}
